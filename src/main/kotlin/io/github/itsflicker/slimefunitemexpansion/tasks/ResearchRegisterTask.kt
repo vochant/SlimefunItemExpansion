@@ -19,8 +19,8 @@ object ResearchRegisterTask {
             "OSMIUM_R".toKey(),
             100862, "锇", 12
         ).addItems(
-            OsmiumDust.OSMIUM_DUST,
-            IEItems.OSMIUM_INGOT
+            OsmiumDust.OSMIUM_DUST_SIE,
+            IEItems.OSMIUM_INGOT_SIE
         ).register()
         Research(
             "MACHINE_BLOCK_R".toKey(),

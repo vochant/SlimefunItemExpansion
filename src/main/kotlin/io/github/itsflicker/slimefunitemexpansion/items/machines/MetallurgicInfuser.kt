@@ -46,7 +46,7 @@ class MetallurgicInfuser(itemGroup: ItemGroup, item: SlimefunItemStack, recipeTy
         )
         this.registerRecipe(
             8,
-            arrayOf(IEItems.OSMIUM_INGOT, ItemStack(Material.REDSTONE)),
+            arrayOf(IEItems.OSMIUM_INGOT_SIE, ItemStack(Material.REDSTONE)),
             arrayOf<ItemStack>(IEItems.BASIC_CONTROL_CIRCUIT)
         )
         this.registerRecipe(

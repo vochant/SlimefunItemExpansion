@@ -144,7 +144,7 @@ object IEItems {
         SlimefunUtils.getCustomHead("eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNmNiNGU0M2MyZjg1Nzc3MDVmM2VlMWM1NzBmYmJmNGUyN2ZkZTljM2RjMGU0NzI3MjFhYWE4YjA1Mzc3NWJlYiJ9fX0="),
         "§e铁齿轮"
     )
-    val OSMIUM_INGOT = SlimefunItemStack("OSMIUM_INGOT", Material.IRON_INGOT, "§b锇锭")
+    val OSMIUM_INGOT_SIE = SlimefunItemStack("OSMIUM_INGOT_SIE", Material.IRON_INGOT, "§b锇锭")
     val WOFT = SlimefunItemStack(
         "WOFT",
         buildItem(XMaterial.CLOCK) { shiny() },

@@ -53,7 +53,7 @@ class AlloyFurnace(itemGroup: ItemGroup, item: SlimefunItemStack, recipeType: Re
         )
         this.registerRecipe(
             10,
-            arrayOf(IEItems.OSMIUM_INGOT, ItemStack(Material.GLOWSTONE_DUST)),
+            arrayOf(IEItems.OSMIUM_INGOT_SIE, ItemStack(Material.GLOWSTONE_DUST)),
             arrayOf<ItemStack>(IEItems.ENHANCED_GLOWSTONE)
         )
         this.registerRecipe(

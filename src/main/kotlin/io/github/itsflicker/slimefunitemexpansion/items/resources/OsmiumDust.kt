@@ -12,7 +12,7 @@ import org.bukkit.World
 import org.bukkit.block.Biome
 import org.bukkit.inventory.ItemStack
 
-class OsmiumDust(itemGroup: ItemGroup) : SlimefunItem(itemGroup, OSMIUM_DUST, RecipeType.GEO_MINER, arrayOfNulls(0)), GEOResource {
+class OsmiumDust(itemGroup: ItemGroup) : SlimefunItem(itemGroup, OSMIUM_DUST_SIE, RecipeType.GEO_MINER, arrayOfNulls(0)), GEOResource {
 
     init {
         register()
@@ -32,7 +32,7 @@ class OsmiumDust(itemGroup: ItemGroup) : SlimefunItem(itemGroup, OSMIUM_DUST, Re
     }
 
     override fun getItem(): ItemStack {
-        return OSMIUM_DUST
+        return OSMIUM_DUST_SIE
     }
 
     override fun isObtainableFromGEOMiner(): Boolean {
@@ -45,8 +45,8 @@ class OsmiumDust(itemGroup: ItemGroup) : SlimefunItem(itemGroup, OSMIUM_DUST, Re
 
     companion object {
 
-        val OSMIUM_DUST by lazy {
-            SlimefunItemStack("IE_OSMIUM_DUST", Material.SUGAR, "§6锇粉")
+        val OSMIUM_DUST_SIE by lazy {
+            SlimefunItemStack("IE_OSMIUM_DUST_SIE", Material.SUGAR, "§6锇粉")
         }
     }
 }

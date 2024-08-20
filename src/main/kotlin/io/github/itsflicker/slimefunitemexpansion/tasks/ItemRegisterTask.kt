@@ -35,13 +35,13 @@ object ItemRegisterTask {
 
     fun run() {
         // 材料
-        IEItems.OSMIUM_INGOT.regItem(
+        IEItems.OSMIUM_INGOT_SIE.regItem(
             IEItems.IE_RESOURCE_STUFF,
             RecipeType.SMELTERY,
-            arrayOf(OsmiumDust.OSMIUM_DUST, null, null, null, null, null, null, null, null)
+            arrayOf(OsmiumDust.OSMIUM_DUST_SIE, null, null, null, null, null, null, null, null)
         )
 
-        addSmelteryRecipe(OsmiumDust.OSMIUM_DUST, IEItems.OSMIUM_INGOT)
+        addSmelteryRecipe(OsmiumDust.OSMIUM_DUST_SIE, IEItems.OSMIUM_INGOT_SIE)
 
         IEItems.WOODEN_GEAR.regNonPlaceableItem(
             IEItems.IE_RESOURCE_STUFF, RecipeType.ENHANCED_CRAFTING_TABLE, arrayOf(
@@ -87,7 +87,7 @@ object ItemRegisterTask {
         )
         IEItems.ENHANCED_GLOWSTONE.regItem(
             IEItems.IE_RESOURCE_STUFF, AlloyFurnace.recipeType, arrayOf(
-                IEItems.OSMIUM_INGOT, ItemStack(
+                IEItems.OSMIUM_INGOT_SIE, ItemStack(
                     Material.GLOWSTONE_DUST
                 ), null,
                 null, null, null,
@@ -110,7 +110,7 @@ object ItemRegisterTask {
         )
         IEItems.BASIC_CONTROL_CIRCUIT.regNonPlaceableItem(
             IEItems.IE_RESOURCE_STUFF, MetallurgicInfuser.recipeType, arrayOf(
-                IEItems.OSMIUM_INGOT, ItemStack(Material.REDSTONE), null,
+                IEItems.OSMIUM_INGOT_SIE, ItemStack(Material.REDSTONE), null,
                 null, null, null,
                 null, null, null
             )
@@ -443,9 +443,9 @@ object ItemRegisterTask {
         // 机械
         IEItems.MACHINE_BLOCK.regNonPlaceableItem(
             IEItems.IE_MACHINES_STUFF, RecipeType.ENHANCED_CRAFTING_TABLE, arrayOf(
-                SlimefunItems.STEEL_INGOT, IEItems.OSMIUM_INGOT, SlimefunItems.STEEL_INGOT,
+                SlimefunItems.STEEL_INGOT, IEItems.OSMIUM_INGOT_SIE, SlimefunItems.STEEL_INGOT,
                 IEItems.IRON_GEAR, ItemStack(Material.GLASS), IEItems.IRON_GEAR,
-                SlimefunItems.STEEL_INGOT, IEItems.OSMIUM_INGOT, SlimefunItems.STEEL_INGOT
+                SlimefunItems.STEEL_INGOT, IEItems.OSMIUM_INGOT_SIE, SlimefunItems.STEEL_INGOT
             )
         )
 
